@@ -1,0 +1,16 @@
+<h3>Recipe Module</h3>
+<div class="col-xs-6">
+    <!-- <app-recipeList (Detail)="detailShow($event)"></app-recipeList> -->
+    <app-recipeList></app-recipeList>
+</div>
+<div class="col-xs-6">
+    <!-- <app-recipeDetail [descriptionNew]="detail" *ngIf="detail else infoText"></app-recipeDetail> -->
+    <!-- <ng-template #infoText>
+        <div class="row">
+            <div class="col-xs-12">
+                <p>Select an Item to view Details</p>
+            </div>
+        </div>
+    </ng-template> -->
+    <router-outlet></router-outlet>
+</div>
